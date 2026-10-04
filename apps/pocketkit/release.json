@@ -1,7 +1,7 @@
 {
-  "version": "1.17.0",
-  "build": "37",
-  "notes": "- 修复远程文件页「更多」与完成按钮间距，统一工具栏布局。\n- 新增 S3 列表与图标视图、面包屑、搜索和排序，与远程文件页共用浏览组件。\n- 修复 S3 特殊对象键和旧请求覆盖新目录的问题，保留分页与文件传输操作。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3aa7c29f0a06fba70b5fbc9011100603",
-  "publishedAt": "2026-10-04T19:47:43.133Z"
+  "version": "1.17.1",
+  "build": "38",
+  "notes": "- 优化 S3 桶内浏览，紧凑路径栏、搜索和文件列表替代堆叠表单，适配横屏与键盘。\n- 优化共享文件网格，将更多操作收进卡片角落，减少空白。\n- 修复上传反馈不明显，改用系统导入副本并补齐取消清理；上传成功后的刷新失败会单独提示。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/f8fa797a73a66f06ae564ebd3a9b0e73",
+  "publishedAt": "2026-10-04T20:51:36.560Z"
 }

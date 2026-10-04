@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/w83ll43/pgyer-updates/main/schema/release.schema.json",
+  "title": "PGYER release",
+  "type": "object",
+  "required": [
+    "version",
+    "build",
+    "notes",
+    "installURL"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)$"
+    },
+    "build": {
+      "type": "string",
+      "pattern": "^[1-9]\\d*$"
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1,
+      "description": "简短中文更新说明；必须保留实际限制"
+    },
+    "installURL": {
+      "type": "string",
+      "description": "蒲公英官方 HTTPS 安装页或 itms-services manifest；客户端仍需严格白名单校验"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

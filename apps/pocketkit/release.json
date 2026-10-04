@@ -1,7 +1,7 @@
 {
-  "version": "1.16.1",
-  "build": "36",
-  "notes": "修复 SSH 持续输出时误报缓冲超限并断开的问题。\n优化 SSH 横屏终端，快捷键改为单排，增加收起键盘入口。\n修复关于页发现新版本后未显示更新弹窗的问题。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/a6fe0e052ed847c5af61e3f184ff06ad",
-  "publishedAt": "2026-10-04T19:03:03.553Z"
+  "version": "1.17.0",
+  "build": "37",
+  "notes": "- 修复远程文件页「更多」与完成按钮间距，统一工具栏布局。\n- 新增 S3 列表与图标视图、面包屑、搜索和排序，与远程文件页共用浏览组件。\n- 修复 S3 特殊对象键和旧请求覆盖新目录的问题，保留分页与文件传输操作。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3aa7c29f0a06fba70b5fbc9011100603",
+  "publishedAt": "2026-10-04T19:47:43.133Z"
 }

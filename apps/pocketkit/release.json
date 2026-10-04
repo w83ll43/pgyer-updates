@@ -1,7 +1,7 @@
 {
-  "version": "1.16.0",
-  "build": "35",
-  "notes": "- 新增 SSH 终端，支持多主机、密码与带口令的 Ed25519 私钥登录。\n- 新增主机指纹确认与本机安全保存，连接断开后不重放输入。\n- 新增原生交互式 Shell，支持方向键、Tab 和 CTRL/ALT 组合键，适配横竖屏。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/1245226875f8c8fc9192f115e7309dfe",
-  "publishedAt": "2026-10-04T18:10:06.937Z"
+  "version": "1.16.1",
+  "build": "36",
+  "notes": "修复 SSH 持续输出时误报缓冲超限并断开的问题。\n优化 SSH 横屏终端，快捷键改为单排，增加收起键盘入口。\n修复关于页发现新版本后未显示更新弹窗的问题。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/a6fe0e052ed847c5af61e3f184ff06ad",
+  "publishedAt": "2026-10-04T19:03:03.553Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.13.0",
-  "build": "32",
-  "notes": "- 新增关于页面，集中查看版本、检查更新和开源许可。\n- 优化更新提示，启动自动检查并弹窗展示，统一使用官方更新来源。\n- 优化远程屏幕全屏显示，可切换填满裁切与完整画面。\n- 新增 Android 音频转发，声音可在控制端播放，失败时回退原设备。\n- 新增投屏期间双向文件传输，支持共享存储内不超过 512 MiB 的文件；上述远程功能仍待 iPhone 完整链路验收。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/4a5849798b0210801fff1df75ab8e1b8",
-  "publishedAt": "2026-10-04T11:30:57.070Z"
+  "version": "1.14.0",
+  "build": "33",
+  "notes": "- 优化远程全屏手势，减少误触系统边缘造成的断连；短暂失焦后可继续会话。\n- 优化全屏控制面板，分组显示常用操作，适配小屏和横屏。\n- 新增 Android 共享存储文件浏览，可点选接收文件、选择发送目录，也可独立于投屏使用。\n- 新增关闭 Android 显示屏继续投屏的请求入口；需先解锁连接，厂商兼容性仍待实机验证。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/e97959924f10333a6e5d872ac5e9b8d0",
+  "publishedAt": "2026-10-04T12:56:57.681Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.15.0",
-  "build": "34",
-  "notes": "- 优化远程画面清晰度与流畅度，新增清晰档位并减少传输、解码等待。\n- 新增可拖动悬浮控制球与上下快捷栏，支持返回、主页、任务和通知操作。\n- 新增 Android 正常锁屏与唤醒操作；受锁保护的应用仍需正常解锁。\n- 修复文件列表误报 ADB 服务被拒绝，文件页支持面包屑、搜索、排序和图标视图。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/be7475b611778102944a7a7d81e3824e",
-  "publishedAt": "2026-10-04T14:59:23.549Z"
+  "version": "1.16.0",
+  "build": "35",
+  "notes": "- 新增 SSH 终端，支持多主机、密码与带口令的 Ed25519 私钥登录。\n- 新增主机指纹确认与本机安全保存，连接断开后不重放输入。\n- 新增原生交互式 Shell，支持方向键、Tab 和 CTRL/ALT 组合键，适配横竖屏。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/1245226875f8c8fc9192f115e7309dfe",
+  "publishedAt": "2026-10-04T18:10:06.937Z"
 }

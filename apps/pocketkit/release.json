@@ -1,7 +1,7 @@
 {
-  "version": "1.24.0",
-  "build": "45",
-  "notes": "新增：3x-ui 多协议原生表单，支持入站、传输、安全与嗅探字段填写。\n新增：订阅排序、分享地址、流量重置、客户端续期及 IP / 设备限制选项。\n优化：HTTP / Mixed 账号和 TLS 证书改为原生列表，支持整段粘贴 PEM。\n修复：保存草稿时保留服务端新字段和未改动的客户端配置。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0ac11beeb87eb65d9ddbcd9c73713843",
-  "publishedAt": "2026-10-05T15:44:30.854Z"
+  "version": "1.24.1",
+  "build": "46",
+  "notes": "修复 3x-ui 订阅与节点无法加载，正确读取普通、JSON 和 Clash 订阅地址。\n优化客户端分享卡片，精简说明并在卡片内显示加载进度、错误与重试入口。\n修复链接刷新时保留旧内容的问题，单项读取失败时仍可使用已加载的其他链接。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/8e22d96951e58f434468e2664cbc0cb5",
+  "publishedAt": "2026-10-05T17:31:36.025Z"
 }

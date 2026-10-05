@@ -1,7 +1,7 @@
 {
-  "version": "1.17.1",
-  "build": "38",
-  "notes": "- 优化 S3 桶内浏览，紧凑路径栏、搜索和文件列表替代堆叠表单，适配横屏与键盘。\n- 优化共享文件网格，将更多操作收进卡片角落，减少空白。\n- 修复上传反馈不明显，改用系统导入副本并补齐取消清理；上传成功后的刷新失败会单独提示。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/f8fa797a73a66f06ae564ebd3a9b0e73",
-  "publishedAt": "2026-10-04T20:51:36.560Z"
+  "version": "1.18.0",
+  "build": "39",
+  "notes": "- 新增内置工具排序，管理页拖动调整，收藏顺序独立保留。\n- 优化 S3 路径与按钮间距，根目录保留“全部文件”，横屏路径纳入位置卡片。\n- 优化每日文字卡片与首页收藏入口，保留 60 秒来源原图。\n- 优化通知模块：移除测试及阅读、倒计时提醒，清理旧提醒并保留通用接口。\n- 新增 Base64 URL 安全格式、URL 解析、JSON 转义与文本列表整理。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0a854a8bf60d08fda41508b4ae3b667c",
+  "publishedAt": "2026-10-05T03:30:51.144Z"
 }

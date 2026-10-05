@@ -1,7 +1,7 @@
 {
-  "version": "1.21.0",
-  "build": "42",
-  "notes": "新增：3x-ui 面板，查看服务器状态、入站与客户端流量。\n新增：入站与客户端管理；新增入站首批支持 VLESS、VMess、Trojan。\n新增：多面板连接、二次验证码与 API Token，凭据仅保存在本机钥匙串。\n提示：3x-ui 真实面板联调仍待验证。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/df6f9968b7ca2b91ac06f838f013f0f9",
-  "publishedAt": "2026-10-05T09:57:18.972Z"
+  "version": "1.22.0",
+  "build": "43",
+  "notes": "新增：3x-ui 自动监控，概览每 2 秒、入站和客户端流量每 5 秒更新，可随时暂停。\n修复：后台切换及密码自动填充关闭 3x-ui 表单、丢失输入；断开后可在编辑窗口重连。\n修复：FRP 暂时离页清空密码，以及远程屏幕文本输入在失焦或后台时消失。\n提示：真实面板与真机密码提供商仍待验证。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/75bd1c6d2cebe741f08b4f28be1ab7a8",
+  "publishedAt": "2026-10-05T10:44:49.155Z"
 }

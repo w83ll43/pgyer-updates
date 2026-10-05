@@ -1,7 +1,7 @@
 {
-  "version": "1.23.0",
-  "build": "44",
-  "notes": "新增：3x-ui 原生管理中心，支持分组、节点、主机、Xray 路由与出站、订阅、面板设置及 Token 管理。\n新增：客户端筛选排序、在线与 IP 详情、批量操作、关联入站和订阅分享二维码。\n新增：服务器日志、配置编辑、备份导入导出及服务维护，写操作需确认。\n提示：完整管理按官方 3.9.0 接口实现；旧版本部分接口、第三方服务及真机仍需按环境验证。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/d6a486c4476f32259f0f1dc8555f68cc",
-  "publishedAt": "2026-10-05T13:25:45.639Z"
+  "version": "1.24.0",
+  "build": "45",
+  "notes": "新增：3x-ui 多协议原生表单，支持入站、传输、安全与嗅探字段填写。\n新增：订阅排序、分享地址、流量重置、客户端续期及 IP / 设备限制选项。\n优化：HTTP / Mixed 账号和 TLS 证书改为原生列表，支持整段粘贴 PEM。\n修复：保存草稿时保留服务端新字段和未改动的客户端配置。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0ac11beeb87eb65d9ddbcd9c73713843",
+  "publishedAt": "2026-10-05T15:44:30.854Z"
 }

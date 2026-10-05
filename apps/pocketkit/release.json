@@ -1,7 +1,7 @@
 {
-  "version": "1.19.0",
-  "build": "40",
-  "notes": "- 新增 SSH 文件传输，支持 SFTP 目录浏览、上传和下载分享，可与终端同时使用。\n- 优化文件操作，提供搜索、排序、隐藏项、路径跳转及进度取消，沿用统一文件界面。\n- 优化传输保护，不覆盖同名文件；单文件最多 1 GiB，进入后台停止，取消上传可能保留临时文件。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/e9ab457b9a615f56e3cad5f9c15444fa",
-  "publishedAt": "2026-10-05T04:42:05.036Z"
+  "version": "1.20.0",
+  "build": "41",
+  "notes": "- 新增开发手册，支持离线查找和复制 Git 命令、HTTP 状态码。\n- 新增 Cron、SQL、XML、chmod 和 Docker Compose 五项开发工具。\n- 优化 JSON 工具，大编辑区搭配固定操作栏，支持连续处理、撤销重做、转 CSV 和保存。\n- 优化随机数，支持排除数字或范围、端口预设、自定义规则保存与一键套用。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/b5676d50310f714369f76e4b671ece3e",
+  "publishedAt": "2026-10-05T07:09:07.551Z"
 }

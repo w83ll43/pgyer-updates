@@ -1,7 +1,7 @@
 {
-  "version": "1.18.0",
-  "build": "39",
-  "notes": "- 新增内置工具排序，管理页拖动调整，收藏顺序独立保留。\n- 优化 S3 路径与按钮间距，根目录保留“全部文件”，横屏路径纳入位置卡片。\n- 优化每日文字卡片与首页收藏入口，保留 60 秒来源原图。\n- 优化通知模块：移除测试及阅读、倒计时提醒，清理旧提醒并保留通用接口。\n- 新增 Base64 URL 安全格式、URL 解析、JSON 转义与文本列表整理。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0a854a8bf60d08fda41508b4ae3b667c",
-  "publishedAt": "2026-10-05T03:30:51.144Z"
+  "version": "1.19.0",
+  "build": "40",
+  "notes": "- 新增 SSH 文件传输，支持 SFTP 目录浏览、上传和下载分享，可与终端同时使用。\n- 优化文件操作，提供搜索、排序、隐藏项、路径跳转及进度取消，沿用统一文件界面。\n- 优化传输保护，不覆盖同名文件；单文件最多 1 GiB，进入后台停止，取消上传可能保留临时文件。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/e9ab457b9a615f56e3cad5f9c15444fa",
+  "publishedAt": "2026-10-05T04:42:05.036Z"
 }

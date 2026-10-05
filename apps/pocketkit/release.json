@@ -1,7 +1,7 @@
 {
-  "version": "1.24.1",
-  "build": "46",
-  "notes": "修复 3x-ui 订阅与节点无法加载，正确读取普通、JSON 和 Clash 订阅地址。\n优化客户端分享卡片，精简说明并在卡片内显示加载进度、错误与重试入口。\n修复链接刷新时保留旧内容的问题，单项读取失败时仍可使用已加载的其他链接。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/8e22d96951e58f434468e2664cbc0cb5",
-  "publishedAt": "2026-10-05T17:31:36.025Z"
+  "version": "1.25.0",
+  "build": "47",
+  "notes": "- 优化 3x-ui 入站列表、关联入站链接及订阅节点卡片，统一紧凑排版。\n- 优化提示气泡，移除重复标题，修正圆角形状和底部裁切。\n- 优化管理表单，数组和字典可页内展开编辑，时间范围与到期筛选使用选择控件，读取结果直接显示。\n- 新增共用可视化 JSON 编辑器，接入 3x-ui 高级配置和 FRP 隧道配置，支持类型、字段与数组编辑。\n- 优化 3x-ui 危险操作，停用、删除、重置和已有配置保存使用居中二次确认弹窗。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/5168ade6dae8852f88f6124a1575b7f0",
+  "publishedAt": "2026-10-05T19:00:22.633Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.20.0",
-  "build": "41",
-  "notes": "- 新增开发手册，支持离线查找和复制 Git 命令、HTTP 状态码。\n- 新增 Cron、SQL、XML、chmod 和 Docker Compose 五项开发工具。\n- 优化 JSON 工具，大编辑区搭配固定操作栏，支持连续处理、撤销重做、转 CSV 和保存。\n- 优化随机数，支持排除数字或范围、端口预设、自定义规则保存与一键套用。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/b5676d50310f714369f76e4b671ece3e",
-  "publishedAt": "2026-10-05T07:09:07.551Z"
+  "version": "1.21.0",
+  "build": "42",
+  "notes": "新增：3x-ui 面板，查看服务器状态、入站与客户端流量。\n新增：入站与客户端管理；新增入站首批支持 VLESS、VMess、Trojan。\n新增：多面板连接、二次验证码与 API Token，凭据仅保存在本机钥匙串。\n提示：3x-ui 真实面板联调仍待验证。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/df6f9968b7ca2b91ac06f838f013f0f9",
+  "publishedAt": "2026-10-05T09:57:18.972Z"
 }

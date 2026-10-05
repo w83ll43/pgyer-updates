@@ -1,7 +1,7 @@
 {
-  "version": "1.22.0",
-  "build": "43",
-  "notes": "新增：3x-ui 自动监控，概览每 2 秒、入站和客户端流量每 5 秒更新，可随时暂停。\n修复：后台切换及密码自动填充关闭 3x-ui 表单、丢失输入；断开后可在编辑窗口重连。\n修复：FRP 暂时离页清空密码，以及远程屏幕文本输入在失焦或后台时消失。\n提示：真实面板与真机密码提供商仍待验证。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/75bd1c6d2cebe741f08b4f28be1ab7a8",
-  "publishedAt": "2026-10-05T10:44:49.155Z"
+  "version": "1.23.0",
+  "build": "44",
+  "notes": "新增：3x-ui 原生管理中心，支持分组、节点、主机、Xray 路由与出站、订阅、面板设置及 Token 管理。\n新增：客户端筛选排序、在线与 IP 详情、批量操作、关联入站和订阅分享二维码。\n新增：服务器日志、配置编辑、备份导入导出及服务维护，写操作需确认。\n提示：完整管理按官方 3.9.0 接口实现；旧版本部分接口、第三方服务及真机仍需按环境验证。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/d6a486c4476f32259f0f1dc8555f68cc",
+  "publishedAt": "2026-10-05T13:25:45.639Z"
 }

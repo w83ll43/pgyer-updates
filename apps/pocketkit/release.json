@@ -1,7 +1,7 @@
 {
-  "version": "1.28.0",
-  "build": "52",
-  "notes": "- 优化：Toast 改为短时单行提示。\n- 优化：终端清屏静默执行，保留当前行与滚动历史。\n- 优化：移除表单键盘收起按钮，支持拖动、点击空白处或单行回车结束输入。\n- 优化：JSON 长按直接突出对应字段行，取消独立预览卡片，类型操作收进子菜单。\n- 新增：组件示例支持完整表单、按钮与状态对照，以及可调整参数和使用边界。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/52835e8fe7c2914feeae9cfaa9756f6e",
-  "publishedAt": "2026-10-06T09:44:53.577Z"
+  "version": "1.29.0",
+  "build": "53",
+  "notes": "- 优化：JSON 新增入口置顶，长列表也能快速添加字段或项目。\n- 优化：字段左滑设置输入方式或删除，数组支持长按拖动排序。\n- 修复：排序时未完成输入和自定义方式错位，类型选择更清晰。\n- 新增：按钮圆角、图标位置、加载和禁用等配置，组件示例支持实时调整。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/9431c940c7016d40c5f0b752eaa98397",
+  "publishedAt": "2026-10-06T11:35:58.569Z"
 }

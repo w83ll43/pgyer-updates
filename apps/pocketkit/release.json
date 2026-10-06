@@ -1,7 +1,7 @@
 {
-  "version": "1.29.3",
-  "build": "56",
-  "notes": "修复嵌套 JSON 编辑页面板边缘留白，默认全高打开并统一安全区域背景，仍可下拉缩小。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0a6c6541ffaa1b9488800727ef83450f",
-  "publishedAt": "2026-10-06T14:11:05.755Z"
+  "version": "1.30.0",
+  "build": "57",
+  "notes": "新增短链接工具，支持自定义服务及右上角七分屏历史记录。\n优化嵌套 JSON 编辑默认以七分屏打开，可上拉展开到全高。\n修复组件示例目录副标题换行，统一单行截断，并支持配置副标题行数。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/053c051aec1938cd079a8549168ce7b9",
+  "publishedAt": "2026-10-06T15:15:22.873Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.26.0",
-  "build": "49",
-  "notes": "- 优化：JSON 填写区保持全宽，精简顶部菜单，统一输入、开关及单选样式。\n- 新增：密码输入的小眼睛显隐，后台自动隐藏并保留草稿。\n- 新增：字段输入方式配置及多选，选项可用文本、数字或布尔值填写。\n- 新增：管理中的组件示例，提供 17 个独立可操作 Demo 页面。\n- 修复：JSON 内容超限时保留待修正输入，防止保存未经接受的旧值。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/2074c125d91b0ef64452711151568eb4",
-  "publishedAt": "2026-10-06T06:02:02.696Z"
+  "version": "1.27.0",
+  "build": "50",
+  "notes": "- 优化：字段类型以灰色与铅笔标签区分固定和可配置。\n- 优化：嵌套 JSON 与原生配置改为设置式列表，复杂字段在七分屏面板分层编辑。\n- 优化：新增、移动和删除统一到标题长按菜单，删除前二次确认。\n- 新增：组件示例扩展至 27 页，补齐终端、文件导入、日期、滑块和进度等。\n- 优化：日期、滑块与传输进度复用共用组件，保持原有业务单位与行为。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/7c424d440562ee5b295cae9a31e9d096",
+  "publishedAt": "2026-10-06T08:00:31.071Z"
 }

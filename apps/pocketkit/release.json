@@ -1,7 +1,7 @@
 {
-  "version": "1.27.0",
-  "build": "50",
-  "notes": "- 优化：字段类型以灰色与铅笔标签区分固定和可配置。\n- 优化：嵌套 JSON 与原生配置改为设置式列表，复杂字段在七分屏面板分层编辑。\n- 优化：新增、移动和删除统一到标题长按菜单，删除前二次确认。\n- 新增：组件示例扩展至 27 页，补齐终端、文件导入、日期、滑块和进度等。\n- 优化：日期、滑块与传输进度复用共用组件，保持原有业务单位与行为。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/7c424d440562ee5b295cae9a31e9d096",
-  "publishedAt": "2026-10-06T08:00:31.071Z"
+  "version": "1.27.1",
+  "build": "51",
+  "notes": "- 优化：终端本地清屏保留当前行、颜色和滚动历史，不发送远端命令。\n- 优化：JSON 长按菜单明确操作字段和路径，统一容器行样式。\n- 优化：空对象与数组提供直接新增入口，null 字段只读。\n- 修复：文本、数值、密码与多行输入可直接收起键盘并保留草稿。\n- 新增：共用 Toast 短提示组件，接入终端并补充可操作示例。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/def67f4d4599baf18aa9f6101c0641a7",
+  "publishedAt": "2026-10-06T08:53:49.455Z"
 }

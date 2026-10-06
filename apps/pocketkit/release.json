@@ -1,7 +1,7 @@
 {
-  "version": "1.29.2",
-  "build": "55",
-  "notes": "修复 JSON 输入恢复正常后仍保留错误提示，选择项纠正后自动清除报错。\n修复输入设置未选中实际控件，密码、数字和 3x-ui 官方选项现在正确识别。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/824b467c207a3b84c28c317ad573cbcd",
-  "publishedAt": "2026-10-06T13:38:15.659Z"
+  "version": "1.29.3",
+  "build": "56",
+  "notes": "修复嵌套 JSON 编辑页面板边缘留白，默认全高打开并统一安全区域背景，仍可下拉缩小。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0a6c6541ffaa1b9488800727ef83450f",
+  "publishedAt": "2026-10-06T14:11:05.755Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.25.1",
-  "build": "48",
-  "notes": "- 优化可视化 JSON 编辑器，精简字段布局并支持全屏编辑，展开与收起保留未完成输入。\n- 优化 3x-ui 全部管理，默认直接显示原始 JSON，可切换结构视图、全屏阅读并完整复制或导出。\n- 优化必填字段标识与时间范围入口，历史范围默认最近 30 分钟，可选择官方支持的九档范围。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/86ed3d874fad3a6843e6300ce3b27501",
-  "publishedAt": "2026-10-06T04:46:57.661Z"
+  "version": "1.26.0",
+  "build": "49",
+  "notes": "- 优化：JSON 填写区保持全宽，精简顶部菜单，统一输入、开关及单选样式。\n- 新增：密码输入的小眼睛显隐，后台自动隐藏并保留草稿。\n- 新增：字段输入方式配置及多选，选项可用文本、数字或布尔值填写。\n- 新增：管理中的组件示例，提供 17 个独立可操作 Demo 页面。\n- 修复：JSON 内容超限时保留待修正输入，防止保存未经接受的旧值。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/2074c125d91b0ef64452711151568eb4",
+  "publishedAt": "2026-10-06T06:02:02.696Z"
 }

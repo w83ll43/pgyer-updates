@@ -1,7 +1,7 @@
 {
-  "version": "1.29.1",
-  "build": "54",
-  "notes": "- 修复 JSON 输入区无法左滑，以及对象字段无法长按拖动排序的问题。\n- 优化左滑操作，保留字段标题，按钮对齐输入区域并统一间距。\n- 优化输入设置表达，支持调整服务端单选字段的显示方式，保留固定选项与必填限制。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/6ee02c10a15e77b771c7e075b88a9a4f",
-  "publishedAt": "2026-10-06T12:52:50.721Z"
+  "version": "1.29.2",
+  "build": "55",
+  "notes": "修复 JSON 输入恢复正常后仍保留错误提示，选择项纠正后自动清除报错。\n修复输入设置未选中实际控件，密码、数字和 3x-ui 官方选项现在正确识别。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/824b467c207a3b84c28c317ad573cbcd",
+  "publishedAt": "2026-10-06T13:38:15.659Z"
 }

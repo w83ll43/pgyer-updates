@@ -1,7 +1,7 @@
 {
-  "version": "1.31.0",
-  "build": "59",
-  "notes": "- 新增 FileBrowser Quantum 原生工具阶段预览版，接入文件、分享、账号管理和传输队列；完整网页功能仍在开发。\n- 新增目录树、缩略图、重复文件操作、大小图表与官方图标选择。\n- 新增原生 EPUB／Markdown 阅读、同步字幕／歌词和通知历史。\n- 优化共享文件、表单、图片和认证组件，绑定操作连接并复用统一界面。\n- 修复 Linux 构建的 iOS 26 底栏兼容标记和首页品牌图加载。\n\n阶段预览提示：完整 3D 格式、部分媒体与阅读高级功能仍待补齐；Passkey 域名关联和 OnlyOffice 服务尚未联调，真机界面仍待验证。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/e8da73f4abca29013fb7ebf3c84062f4",
-  "publishedAt": "2026-10-09T13:44:52.667Z"
+  "version": "1.32.0",
+  "build": "60",
+  "notes": "- 新增原生三维模型预览，接入 OBJ、FBX、GLTF／GLB、KMZ 等 11 种扩展名，其他网页模型格式仍在开发。\n- 新增模型旋转、缩放、复位、背景选择及线性节点／骨骼动画控制。\n- 优化 Quantum 模型配套文件读取，沿用当前权限并限制目录与容量，缺少纹理时保留基础模型。\n- 优化 EPUB 与模型容器的路径、解压容量和损坏校验，复用公共 ZIP 组件。\n- 优化页面与底部操作为有背景或描边的按钮，文件夹列表有更多菜单时去掉进入箭头。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/b4f513dda99c5c32335361949c3c4514",
+  "publishedAt": "2026-10-09T16:01:03.942Z"
 }

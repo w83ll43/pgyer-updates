@@ -1,7 +1,7 @@
 {
-  "version": "1.30.1",
-  "build": "58",
-  "notes": "优化安装包构建流程，支持 Linux 编译与离线签名。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/6f3aef2cfb6ac5f062f93ec6f780e192",
-  "publishedAt": "2026-10-09T08:57:43.963Z"
+  "version": "1.31.0",
+  "build": "59",
+  "notes": "- 新增 FileBrowser Quantum 原生工具阶段预览版，接入文件、分享、账号管理和传输队列；完整网页功能仍在开发。\n- 新增目录树、缩略图、重复文件操作、大小图表与官方图标选择。\n- 新增原生 EPUB／Markdown 阅读、同步字幕／歌词和通知历史。\n- 优化共享文件、表单、图片和认证组件，绑定操作连接并复用统一界面。\n- 修复 Linux 构建的 iOS 26 底栏兼容标记和首页品牌图加载。\n\n阶段预览提示：完整 3D 格式、部分媒体与阅读高级功能仍待补齐；Passkey 域名关联和 OnlyOffice 服务尚未联调，真机界面仍待验证。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/e8da73f4abca29013fb7ebf3c84062f4",
+  "publishedAt": "2026-10-09T13:44:52.667Z"
 }

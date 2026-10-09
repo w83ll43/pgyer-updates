@@ -1,7 +1,7 @@
 {
-  "version": "1.33.1",
-  "build": "63",
-  "notes": "- 修复 SSH 与共用终端辅助键点击时意外收起键盘的问题，保持组合键输入顺畅。\n- 优化短链接错误排查，可查看 HTTP 状态、响应格式和服务器原始正文，解析失败也保留请求结果。\n- 优化短链接字段缺失和非 JSON 提示，便于按真实响应调整服务的结果路径。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/5555113fd4c3d08f9814158446e548dd",
-  "publishedAt": "2026-10-09T19:47:36.034Z"
+  "version": "1.33.2",
+  "build": "64",
+  "notes": "- 优化短链接服务选择，补齐 v.gd、clck.ru、CleanURI 与 TinyURL 预设；TinyURL 需填写自己的 Token。\n- 优化公共服务直接添加与切换，保留已有配置，不支持短码的服务隐藏对应输入。\n- 修复短链接与文件列表更多菜单的附加箭头，统一简洁图标入口。\n- 优化弹出面板顶部按钮的可见高度、内边距与圆角，统一完成与取消样式。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/12f72627f2d92918ea9270025c863e22",
+  "publishedAt": "2026-10-09T20:19:21.734Z"
 }

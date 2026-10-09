@@ -1,7 +1,7 @@
 {
-  "version": "1.32.1",
-  "build": "61",
-  "notes": "- 优化页面与底部按钮为浅绿底色、深绿图文，危险操作使用浅红色按钮。\n- 修复部分表单开关缺少名称的问题，明确显示每个选项。\n- 优化表单字段标题常驻显示，填写后仍能区分内容；文件夹选择与添加操作统一按钮样式。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c5697f02bf40dc7c3796cea6cd9fa04d",
-  "publishedAt": "2026-10-09T16:37:59.825Z"
+  "version": "1.33.0",
+  "build": "62",
+  "notes": "- 修复 Quantum 分享链接重复斜杠与公开页面路径错误，保留部署子路径和下载参数。\n- 优化短链接网址识别、保存数据读取失败时的临时生成与错误提示，移除服务列表重复箭头。\n- 新增 EPUB 段落续读、字号记忆和章节内／跨章节锚点跳转，兼容旧章节记录。\n- 优化七种按钮配色、搜索范围删除对齐和简洁更多图标，新增目录／分层编辑器边缘返回，保留媒体错误提示。\n- 新增此前完成的 XYZ／PCD 原生预览；3D 与 OnlyOffice 后续开发仍按要求跳过。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3be5b22f68fc777129cf923d585aaa41",
+  "publishedAt": "2026-10-09T18:26:12.925Z"
 }

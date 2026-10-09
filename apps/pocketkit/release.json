@@ -1,7 +1,7 @@
 {
-  "version": "1.33.0",
-  "build": "62",
-  "notes": "- 修复 Quantum 分享链接重复斜杠与公开页面路径错误，保留部署子路径和下载参数。\n- 优化短链接网址识别、保存数据读取失败时的临时生成与错误提示，移除服务列表重复箭头。\n- 新增 EPUB 段落续读、字号记忆和章节内／跨章节锚点跳转，兼容旧章节记录。\n- 优化七种按钮配色、搜索范围删除对齐和简洁更多图标，新增目录／分层编辑器边缘返回，保留媒体错误提示。\n- 新增此前完成的 XYZ／PCD 原生预览；3D 与 OnlyOffice 后续开发仍按要求跳过。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3be5b22f68fc777129cf923d585aaa41",
-  "publishedAt": "2026-10-09T18:26:12.925Z"
+  "version": "1.33.1",
+  "build": "63",
+  "notes": "- 修复 SSH 与共用终端辅助键点击时意外收起键盘的问题，保持组合键输入顺畅。\n- 优化短链接错误排查，可查看 HTTP 状态、响应格式和服务器原始正文，解析失败也保留请求结果。\n- 优化短链接字段缺失和非 JSON 提示，便于按真实响应调整服务的结果路径。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/5555113fd4c3d08f9814158446e548dd",
+  "publishedAt": "2026-10-09T19:47:36.034Z"
 }

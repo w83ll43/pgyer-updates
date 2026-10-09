@@ -1,7 +1,7 @@
 {
-  "version": "1.32.0",
-  "build": "60",
-  "notes": "- 新增原生三维模型预览，接入 OBJ、FBX、GLTF／GLB、KMZ 等 11 种扩展名，其他网页模型格式仍在开发。\n- 新增模型旋转、缩放、复位、背景选择及线性节点／骨骼动画控制。\n- 优化 Quantum 模型配套文件读取，沿用当前权限并限制目录与容量，缺少纹理时保留基础模型。\n- 优化 EPUB 与模型容器的路径、解压容量和损坏校验，复用公共 ZIP 组件。\n- 优化页面与底部操作为有背景或描边的按钮，文件夹列表有更多菜单时去掉进入箭头。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/b4f513dda99c5c32335361949c3c4514",
-  "publishedAt": "2026-10-09T16:01:03.942Z"
+  "version": "1.32.1",
+  "build": "61",
+  "notes": "- 优化页面与底部按钮为浅绿底色、深绿图文，危险操作使用浅红色按钮。\n- 修复部分表单开关缺少名称的问题，明确显示每个选项。\n- 优化表单字段标题常驻显示，填写后仍能区分内容；文件夹选择与添加操作统一按钮样式。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c5697f02bf40dc7c3796cea6cd9fa04d",
+  "publishedAt": "2026-10-09T16:37:59.825Z"
 }

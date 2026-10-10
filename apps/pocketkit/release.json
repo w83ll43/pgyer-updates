@@ -1,7 +1,7 @@
 {
-  "version": "1.33.3",
-  "build": "65",
-  "notes": "- 优化组件示例的分类网格与搜索，全部示例直接可见，说明按需查看。\n- 优化参数面板、分组与实时预览，复用彩色按钮和分类组件。\n- 优化 Quantum 文件路径间距及公共面板的自适应圆角与高度。\n- 优化正则处理的取消传递、执行时限和匹配结果上限。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/64827eb1541e527ddf10ab961b5f666e",
-  "publishedAt": "2026-10-10T18:27:34.119Z"
+  "version": "1.33.4",
+  "build": "66",
+  "notes": "- 修复使用说明的大片留白，按内容适配面板高度，说明与接口详情分层阅读。\n- 修复滑动与拖拽示例的区域不一致，整行预览保留标题、类型与实际尺寸。\n- 优化组件目录为分类入口与紧凑列表，补齐已有公共组件演示并复用说明、图标和行组件。\n- 优化图标展示，接入完整工具清单与 Material 名称库，支持搜索、分类和选择预览。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/589c4946aacdda31176712b8b55ae06e",
+  "publishedAt": "2026-10-10T19:02:24.441Z"
 }

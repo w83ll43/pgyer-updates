@@ -1,7 +1,7 @@
 {
-  "version": "1.33.4",
-  "build": "66",
-  "notes": "- 修复使用说明的大片留白，按内容适配面板高度，说明与接口详情分层阅读。\n- 修复滑动与拖拽示例的区域不一致，整行预览保留标题、类型与实际尺寸。\n- 优化组件目录为分类入口与紧凑列表，补齐已有公共组件演示并复用说明、图标和行组件。\n- 优化图标展示，接入完整工具清单与 Material 名称库，支持搜索、分类和选择预览。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/589c4946aacdda31176712b8b55ae06e",
-  "publishedAt": "2026-10-10T19:02:24.441Z"
+  "version": "1.33.5",
+  "build": "67",
+  "notes": "- 优化组件目录，同类布局与状态在同一入口切换，归并选择器、表单、按钮、JSON 和页面面板。\n- 优化目录树展开图标间距，文件网格通过长按显示更多操作。\n- 修复整行拖拽预览圆角，排序松手和删除加入过渡动画。\n- 修复输入行尾按钮对齐，补充搜索范围删除与边缘返回的实际用途和工具入口。\n\n原生快捷指令注册继续暂缓，本包显式排除系统动作；3D／OnlyOffice 后续工作仍跳过。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/58d03f82bd191766b2211bd33ae395a2",
+  "publishedAt": "2026-10-10T19:49:11.919Z"
 }

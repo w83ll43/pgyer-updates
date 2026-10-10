@@ -1,7 +1,7 @@
 {
-  "version": "1.33.2",
-  "build": "64",
-  "notes": "- 优化短链接服务选择，补齐 v.gd、clck.ru、CleanURI 与 TinyURL 预设；TinyURL 需填写自己的 Token。\n- 优化公共服务直接添加与切换，保留已有配置，不支持短码的服务隐藏对应输入。\n- 修复短链接与文件列表更多菜单的附加箭头，统一简洁图标入口。\n- 优化弹出面板顶部按钮的可见高度、内边距与圆角，统一完成与取消样式。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/12f72627f2d92918ea9270025c863e22",
-  "publishedAt": "2026-10-09T20:19:21.734Z"
+  "version": "1.33.3",
+  "build": "65",
+  "notes": "- 优化组件示例的分类网格与搜索，全部示例直接可见，说明按需查看。\n- 优化参数面板、分组与实时预览，复用彩色按钮和分类组件。\n- 优化 Quantum 文件路径间距及公共面板的自适应圆角与高度。\n- 优化正则处理的取消传递、执行时限和匹配结果上限。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/64827eb1541e527ddf10ab961b5f666e",
+  "publishedAt": "2026-10-10T18:27:34.119Z"
 }

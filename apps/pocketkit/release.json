@@ -1,7 +1,7 @@
 {
-  "version": "1.33.5",
-  "build": "67",
-  "notes": "- 优化组件目录，同类布局与状态在同一入口切换，归并选择器、表单、按钮、JSON 和页面面板。\n- 优化目录树展开图标间距，文件网格通过长按显示更多操作。\n- 修复整行拖拽预览圆角，排序松手和删除加入过渡动画。\n- 修复输入行尾按钮对齐，补充搜索范围删除与边缘返回的实际用途和工具入口。\n\n原生快捷指令注册继续暂缓，本包显式排除系统动作；3D／OnlyOffice 后续工作仍跳过。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/58d03f82bd191766b2211bd33ae395a2",
-  "publishedAt": "2026-10-10T19:49:11.919Z"
+  "version": "1.34.0",
+  "build": "68",
+  "notes": "- 新增彩色整数步进器，密码、UUID、随机与令牌生成工具统一数量控制与边界禁用。\n- 新增自适应详情行与统计值组件，3x-ui、FRP 和文本工具共用布局，长值保留完整内容。\n- 新增浅色与描边状态标签，面板状态保留在线未知、上次记录与流量用尽等明确文字。\n- 优化组件目录，数值控制与信息统计按同类归并，补充交互演示、可调参数和使用说明。\n\n原生快捷指令仍显式排除，待完整 Xcode 注册；Quantum 的 3D 与 OnlyOffice 后续工作按用户要求跳过。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/88c4bec5d430b88f696bb62859c83151",
+  "publishedAt": "2026-10-10T20:25:24.973Z"
 }

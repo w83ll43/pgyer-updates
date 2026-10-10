@@ -1,7 +1,7 @@
 {
-  "version": "1.34.0",
-  "build": "68",
-  "notes": "- 新增彩色整数步进器，密码、UUID、随机与令牌生成工具统一数量控制与边界禁用。\n- 新增自适应详情行与统计值组件，3x-ui、FRP 和文本工具共用布局，长值保留完整内容。\n- 新增浅色与描边状态标签，面板状态保留在线未知、上次记录与流量用尽等明确文字。\n- 优化组件目录，数值控制与信息统计按同类归并，补充交互演示、可调参数和使用说明。\n\n原生快捷指令仍显式排除，待完整 Xcode 注册；Quantum 的 3D 与 OnlyOffice 后续工作按用户要求跳过。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/88c4bec5d430b88f696bb62859c83151",
-  "publishedAt": "2026-10-10T20:25:24.973Z"
+  "version": "1.34.1",
+  "build": "69",
+  "notes": "- 优化嵌套 JSON 分层返回，边缘右滑轻微跟手、取消回弹，切换与顶部返回增加过渡动画。\n- 优化文件网格，增强独立卡片边界，统一图标与缩略图高度，文件名和大小信息居中排列。\n- 修复边缘手势的页面范围判定，Quantum 增加跟手反馈与路径栏父目录返回按钮。\n\n原生快捷指令仍显式排除，待完整 Xcode 注册；Quantum 的 3D 与 OnlyOffice 后续工作按用户要求跳过。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3dc144cbff2f7fa8c6b43a0a349d8348",
+  "publishedAt": "2026-10-10T20:57:09.089Z"
 }

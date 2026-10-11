@@ -1,7 +1,7 @@
 {
-  "version": "1.34.3",
-  "build": "71",
-  "notes": "- 优化 Quantum 路径栏，恢复逐段点击与箭头分隔，直接返回指定目录。\n- 优化长路径浏览，支持横向滑动，进入深层目录后露出当前目录。\n- 优化组件示例，可切换分段路径与路径菜单，说明对应实际操作。\n\n原生快捷指令仍显式排除，待完整 Xcode 注册；Quantum 的 3D 与 OnlyOffice 后续工作按用户要求跳过。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/1b32507271f3419ddc9149272464a805",
-  "publishedAt": "2026-10-11T00:05:15.106Z"
+  "version": "1.34.4",
+  "build": "72",
+  "notes": "- 修复 SSH 连接入口的终端初始化时序，完成页面布局后再连接服务器与打开键盘。\n- 修复快速关闭终端后残留启动回调，共享终端组件同步用于 SSH、无线 ADB 与组件示例。\n\n原生快捷指令仍显式排除，待完整 Xcode 注册；Quantum 的 3D 与 OnlyOffice 后续工作按用户要求跳过。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/48d47009805f6d9db0028ba7dcce6d31",
+  "publishedAt": "2026-10-11T00:19:26.122Z"
 }

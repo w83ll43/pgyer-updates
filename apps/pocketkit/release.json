@@ -1,7 +1,7 @@
 {
-  "version": "3.1.0",
-  "build": "78",
-  "notes": "- 新增手机播放器，支持本地、网络直链与 HLS 点播、字幕及真实片源清晰度切换。\n- 新增漫画／小说共用阅读器，支持图片、CBZ／ZIP、UTF-8 TXT 和简化 EPUB，以及书签和进度恢复。\n- 新增本地弹幕、手势调光调音、全屏切换与紧凑面板，默认采用拾器配色。\n- 新增可组合控件、JSON 布局与自定义配色，提供 URL Scheme 及独立 Swift Package。\n- 新增 Kazumi XPath 规则导入、搜索、线路选集与解析播放，重试保留进度和字幕。\n\n规则暂不支持 API 模式、验证码及 Cookie／Referer 桥接；直播、DRM 和在线弹幕服务未开放。兼容签名仅支持证书登记设备；真实手机及完整长片仍待验收。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/a9f52e0a631b6fa54236b799f28a8126",
-  "publishedAt": "2026-10-25T16:20:18.943Z"
+  "version": "3.2.0",
+  "build": "79",
+  "notes": "- 新增播放器首次预置 AGE、akianime、xfdmneo 三条 KazumiRules 官方 XPath 规则，默认选择 AGE 并自动保存；保留已有来源、当前选择和用户删除结果。\n\n来源可用性随网站变化，akianime、xfdmneo 尚未完成公网播放验收。兼容签名仅支持证书登记设备；真实手机及系统填充仍待验收。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c4508fa6835cf807f7a6c6984286e86d",
+  "publishedAt": "2026-10-25T17:14:28.486Z"
 }

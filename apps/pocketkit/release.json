@@ -1,7 +1,7 @@
 {
-  "version": "3.2.0",
-  "build": "79",
-  "notes": "- 新增播放器首次预置 AGE、akianime、xfdmneo 三条 KazumiRules 官方 XPath 规则，默认选择 AGE 并自动保存；保留已有来源、当前选择和用户删除结果。\n\n来源可用性随网站变化，akianime、xfdmneo 尚未完成公网播放验收。兼容签名仅支持证书登记设备；真实手机及系统填充仍待验收。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c4508fa6835cf807f7a6c6984286e86d",
-  "publishedAt": "2026-10-25T17:14:28.486Z"
+  "version": "3.3.0",
+  "build": "80",
+  "notes": "- 新增播放器内横向线路与数字选集，支持按需切集、换线路和顺序连播；播放组件通过通用回调与规则业务解耦。\n- 修复截图提示持续不消失的问题；锁定图标3秒后自动收起，点按画面可重新显示。\n- 优化长按加速与拖动定位的手势隔离，减少误定位；播放器面板统一固定高度，失败重试保留原画面。\n\n兼容签名仅支持证书登记设备；真实手机、系统填充及iCloud实际分发尚未验收。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/dfe2f3a67d8aadb708cb2da529d5466a",
+  "publishedAt": "2026-10-25T19:22:13.291Z"
 }

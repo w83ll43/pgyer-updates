@@ -1,7 +1,7 @@
 {
-  "version": "3.3.0",
-  "build": "80",
-  "notes": "- 新增播放器内横向线路与数字选集，支持按需切集、换线路和顺序连播；播放组件通过通用回调与规则业务解耦。\n- 修复截图提示持续不消失的问题；锁定图标3秒后自动收起，点按画面可重新显示。\n- 优化长按加速与拖动定位的手势隔离，减少误定位；播放器面板统一固定高度，失败重试保留原画面。\n\n兼容签名仅支持证书登记设备；真实手机、系统填充及iCloud实际分发尚未验收。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/dfe2f3a67d8aadb708cb2da529d5466a",
-  "publishedAt": "2026-10-25T19:22:13.291Z"
+  "version": "3.4.0",
+  "build": "81",
+  "notes": "- 新增网盘下载，使用自有授权浏览百度、阿里、123和光鸭个人盘，支持目录分页、多选及临时下载信息获取。\n- 新增下载信息批量复制与系统分享；阿里云盘支持应用内下载和本机文件分享，单文件上限512 MiB。\n\n网盘需自有有效授权及对应平台权益，真实账号联调尚未验收；兼容签名仅支持证书登记设备，真实手机、系统填充及iCloud分发尚未验收。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c2c4cbbbf88ae87f226cb95aaf722b3c",
+  "publishedAt": "2026-10-26T20:27:00.688Z"
 }

@@ -1,8 +1,8 @@
 {
   "platform": "android",
   "packageName": "app.pocketkit.android.beta",
-  "versionName": "2.1.0",
-  "versionCode": 11,
+  "versionName": "2.2.0",
+  "versionCode": 12,
   "installURL": "https://www.pgyer.com/shiqi-android-2",
-  "notes": "- 新增独立安卓预览渠道，支持启动检查和手动更新。\n- 优化 3x-ui 概览、趋势和诊断，补齐 FRP 实时日志、节点流量和隧道编辑。\n- 新增 SSH 多主机与 SFTP 文件管理。\n- 优化平板常用和双列收藏，统一「拾器」名称与图标。\n"
+  "notes": "- 优化确认弹窗，确认、取消和完整说明可点击整块按钮区域。\n- 新增 3x-ui 客户端编辑、入站新增和删除。\n- 新增 3x-ui 客户端分组管理与 Xray 模板浏览。\n- 新增 JSON 逐层编辑，3x-ui 可复用它修改入站高级配置。\n"
 }

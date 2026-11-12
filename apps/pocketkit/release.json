@@ -1,7 +1,7 @@
 {
-  "version": "3.4.0",
-  "build": "81",
-  "notes": "- 新增网盘下载，使用自有授权浏览百度、阿里、123和光鸭个人盘，支持目录分页、多选及临时下载信息获取。\n- 新增下载信息批量复制与系统分享；阿里云盘支持应用内下载和本机文件分享，单文件上限512 MiB。\n\n网盘需自有有效授权及对应平台权益，真实账号联调尚未验收；兼容签名仅支持证书登记设备，真实手机、系统填充及iCloud分发尚未验收。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/c2c4cbbbf88ae87f226cb95aaf722b3c",
-  "publishedAt": "2026-10-26T20:27:00.688Z"
+  "version": "3.5.0",
+  "build": "82",
+  "notes": "- 优化每日内容入口，在「每日系列」中切换每日笑话和每日一言。\n- 优化工具目录，下线「历史上的今天」和「倒计时」。\n- 新增网盘下载的 cURL 命令和 aria2 任务列表导出，适用于百度、123 和光鸭的可用请求。\n- 修复 123 云盘下载流量不足后仍继续请求同一批文件的问题。\n\n网盘需自行取得平台授权；兼容测试包仅支持描述文件已登记的设备。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/8c3dc06110535120d9ea076aea139a12",
+  "publishedAt": "2026-11-12T09:10:12.790Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "3.5.0",
-  "build": "82",
-  "notes": "- 优化每日内容入口，在「每日系列」中切换每日笑话和每日一言。\n- 优化工具目录，下线「历史上的今天」和「倒计时」。\n- 新增网盘下载的 cURL 命令和 aria2 任务列表导出，适用于百度、123 和光鸭的可用请求。\n- 修复 123 云盘下载流量不足后仍继续请求同一批文件的问题。\n\n网盘需自行取得平台授权；兼容测试包仅支持描述文件已登记的设备。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/8c3dc06110535120d9ea076aea139a12",
-  "publishedAt": "2026-11-12T09:10:12.790Z"
+  "version": "3.6.0",
+  "build": "83",
+  "notes": "- 新增 3x-ui 实时监控看板，显示最近 5 分钟的发送／接收速率、CPU 和内存趋势。支持的 3.x 账号连接接收服务端推送，Token 或推送不可用时显示轮询状态。\n- 新增通用图表组件示例，可切换折线图、面积图、柱状图和环形图，体验不同数据与空态。\n\n兼容测试包仅支持描述文件已登记的设备。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/41ef51b62a4b225f96e7801dfd67d4ab",
+  "publishedAt": "2026-11-12T13:42:43.326Z"
 }

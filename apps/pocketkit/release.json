@@ -1,7 +1,7 @@
 {
-  "version": "3.6.0",
-  "build": "83",
-  "notes": "- 新增 3x-ui 实时监控看板，显示最近 5 分钟的发送／接收速率、CPU 和内存趋势。支持的 3.x 账号连接接收服务端推送，Token 或推送不可用时显示轮询状态。\n- 新增通用图表组件示例，可切换折线图、面积图、柱状图和环形图，体验不同数据与空态。\n\n兼容测试包仅支持描述文件已登记的设备。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/41ef51b62a4b225f96e7801dfd67d4ab",
-  "publishedAt": "2026-11-12T13:42:43.326Z"
+  "version": "3.7.0",
+  "build": "84",
+  "notes": "- 新增 TorrServer 磁力播放、弹弹play 在线匹配和一起看，使用前需配置对应服务。\n- 新增本地视频去色带、最高 200% 音量增强、音画偏移和受支持设备上的超分。直链支持磁盘缓存。\n- 新增 HLS 直播回看、暂停逐帧、拖动缩略图、时间标记插件和 PNG／JPG／GIF 导出。\n- 优化播放器底栏、更多、选集和 iPad 布局，新增多源弹幕、字幕样式、画中画和锁屏播控。\n- 优化 3x-ui 概览，补充存储、交换空间与 TCP／UDP 趋势，修复读数变化时图例跳动。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0fda8f8d3e4dc1b1f5bf8f86936ec096",
+  "publishedAt": "2026-11-14T20:41:54.249Z"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "3.7.0",
-  "build": "84",
-  "notes": "- 新增 TorrServer 磁力播放、弹弹play 在线匹配和一起看，使用前需配置对应服务。\n- 新增本地视频去色带、最高 200% 音量增强、音画偏移和受支持设备上的超分。直链支持磁盘缓存。\n- 新增 HLS 直播回看、暂停逐帧、拖动缩略图、时间标记插件和 PNG／JPG／GIF 导出。\n- 优化播放器底栏、更多、选集和 iPad 布局，新增多源弹幕、字幕样式、画中画和锁屏播控。\n- 优化 3x-ui 概览，补充存储、交换空间与 TCP／UDP 趋势，修复读数变化时图例跳动。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/0fda8f8d3e4dc1b1f5bf8f86936ec096",
-  "publishedAt": "2026-11-14T20:41:54.249Z"
+  "version": "3.8.0",
+  "build": "85",
+  "notes": "- 新增 HLS 点播磁盘缓存，支持 4 小时以内、无 DRM 的片源，切换缓存时保留进度。\n- 优化播放器面板，播放设置、选集和插件等功能统一使用同一尺寸和配色，切页后可逐层返回并保留视频画面。\n- 新增选集内的磁力资源入口，以及一起看的连接、聊天、在线与请求分栏。更新房间服务后支持单人审批。\n- 新增点播播放器内的系统解码与 mpv 切换，支持 Metal、显示刷新同步和 Anime4K，可从 Files 导入 ASS 字幕，已导入的字体在换片或重开后仍可使用。\n- 新增批量离线下载，强退后重开可恢复队列。支持续传的直链文件从已下载位置继续，HLS 点播复用匹配的完整分片，包括带内容调度、URI 变量和 fMP4 字节范围的片源。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/a4e6cf99e180e517a1f2ef87b94a1626",
+  "publishedAt": "2026-11-15T16:42:55.000Z"
 }

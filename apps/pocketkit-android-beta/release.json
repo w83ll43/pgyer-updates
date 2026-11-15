@@ -1,8 +1,8 @@
 {
   "platform": "android",
   "packageName": "app.pocketkit.android.beta",
-  "versionName": "2.3.0",
-  "versionCode": 13,
+  "versionName": "2.4.0",
+  "versionCode": 14,
   "installURL": "https://www.pgyer.com/shiqi-android-2",
-  "notes": "- 新增 3x-ui 密码加密保存，断开或重启后可直接重连。\n- 新增 3x-ui 客户端凭据更换与流量重置，操作后回读面板数据。\n- 新增 3x-ui 入站主机、订阅均衡和 Xray 模板编辑，支持浏览及校验 Geo 规则。\n- 优化手机和平板的 3x-ui 概览、入站抽屉以及共用表单与 JSON 编辑。\n"
+  "notes": "- 新增 3x-ui 入站内的客户端创建和删除，按协议填写选项，删除前提示影响范围。\n- 新增 3x-ui 多面板保存和切换、Token 加密保存、工具链接及自动监控开关。\n- 新增 3x-ui 原生管理中心、客户端在线与筛选排序、关联入站、分享与二维码。\n- 新增入站启停和流量重置确认及回读。\n- 优化 SSH 和 SFTP，支持从文件导入私钥、搜索当前文件夹、复制远程路径和查看传输进度。"
 }

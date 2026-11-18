@@ -1,7 +1,7 @@
 {
-  "version": "3.9.1",
-  "build": "87",
-  "notes": "- 修复共享图标字体重复打包，减小安装包体积。\n- 新增测试用例入口，自测包首次启动默认选择测试环境，支持更新包内测试连接。\n- 优化公网自测入口与独立随机登录口令，保留本地连接；需放行云端口后连接。\n- 修复收藏和管理页标题显示、首页收藏按钮换行及最近使用标签偏大。",
-  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/3dfcd182889d68e35576553f3b97feea",
-  "publishedAt": "2026-11-18T10:07:32.000Z"
+  "version": "3.10.0",
+  "build": "88",
+  "notes": "- 新增上传下载字节进度与百分比，补齐 S3、网盘本机下载和局域网上传网页，保留取消与失败反馈。\n- 新增可撤销反馈、常驻提示、表单退出保护和分步引导，支持业务注入内容与操作。\n- 优化传输、原生面板和输入操作的大字适配，统一文件、选择与编辑页的底部渐变背景。\n- 修复首页卡片高矮不一、说明半屏高度跳变和 JSON 进度遮挡，统一组件命名与演示入口。\n\n原生半屏仍保留系统留白；26.6.1 真机及新增浮层的其他交互、读屏体验待验。",
+  "installURL": "itms-services://?action=download-manifest&url=https://www.pgyer.com/app/plist/70dc5998d0a2cb6c03a531483f1c414e",
+  "publishedAt": "2026-11-18T16:10:56.214Z"
 }
